@@ -1,5 +1,6 @@
 package com.example.personalmaterial;
 
+import android.content.Intent;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,6 +17,7 @@ public class AgregarPersona extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_agregar_persona);
+        fotos = new ArrayList<>();
         fotos.add(R.drawable.image);
         fotos.add(R.drawable.image2);
         nombre = findViewById(R.id.txtNombre);
@@ -50,5 +52,11 @@ public class AgregarPersona extends AppCompatActivity {
         Random r = new Random();
         fotoSelecionada = r.nextInt(this.fotos.size());
         return fotos.get(fotoSelecionada);
+    }
+
+    public void onBackPressed(){
+        finish();
+        Intent i = new Intent(AgregarPersona.this, MainActivity.class);
+        startActivity(i);
     }
 }
