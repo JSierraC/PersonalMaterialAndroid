@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">PersonalMaterial</string>
     <string name="action_settings">Settings</string>
+    <string name="cedula">Cedula</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="titulo">Agregar Persona</string>
+    <string name="agregar">Agregar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="numero">No</string>
+    <string name="opcion_1">Agregar</string>
+    <string name="opcion_2">Listar</string>
+    <string-array name="opciones_lista">
+        <item>@string/opcion_1</item>
+        <item>@string/opcion_2</item>
+    </string-array>
 </resources>
