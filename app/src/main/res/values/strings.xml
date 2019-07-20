@@ -8,8 +8,10 @@
     <string name="agregar">Agregar</string>
     <string name="limpiar">Limpiar</string>
     <string name="numero">No</string>
+    <string name="eliminar">Eliminar</string>
     <string name="opcion_1">Agregar</string>
     <string name="opcion_2">Listar</string>
+    <string name="titulo_detalle">Detalle de la Persona</string>
     <string-array name="opciones_lista">
         <item>@string/opcion_1</item>
         <item>@string/opcion_2</item>
