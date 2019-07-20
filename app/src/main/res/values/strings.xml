@@ -9,6 +9,13 @@
     <string name="limpiar">Limpiar</string>
     <string name="numero">No</string>
     <string name="eliminar">Eliminar</string>
+
+
+    <string name="titulo_eliminar">Eliminar</string>
+    <string name="positivo">Si</string>
+    <string name="negativo">No</string>
+    <string name="mensaje_eliminar">¿Seguro que desea eliminar a esta persona?</string>
+
     <string name="opcion_1">Agregar</string>
     <string name="opcion_2">Listar</string>
     <string name="titulo_detalle">Detalle de la Persona</string>
